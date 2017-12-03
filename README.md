@@ -52,17 +52,61 @@ A beginning-to-end snapshot of what the proof-of-concept will contain, so set a 
   6. Zones back to hub after stage completion
   7. Save/Exit? Credits?
 
+### Demo Asset List
+Listed below (and continually updated) will be the list of character, environmental, and User Interface assets to be included in the demo.
+#### Character
+  1. Default Male Character
+    - [ ] Model
+    - [ ] Texture
+    - [ ] Rig
+    - [ ] Walk Animation
+    - [ ] Run Animation
+    - [ ] Jump Animation
+    - [ ] Attack Animation
+  2. Default Female Character
+  - [ ] Model
+  - [ ] Texture
+  - [ ] Rig
+  - [ ] Walk Animation
+  - [ ] Run Animation
+  - [ ] Jump Animation
+  - [ ] Attack Animation
+  3. Melee Terrestrial Enemy
+  - [ ] Model
+  - [ ] Texture
+  - [ ] Rig
+  - [ ] Walk Animation
+  - [ ] Run Animation
+  - [ ] Jump Animation 
+  - [ ] Attack Animation
+  4. Ranged Aerial Enemy
+  - [ ] Model
+  - [ ] Texture
+  - [ ] Rig
+  - [ ] Walk Animation
+  - [ ] Run Animation
+  - [ ] Jump Animation
+  - [ ] Attack Animation
+  5. Enemy Captain
+  - [ ] Model
+  - [ ] Texture
+  - [ ] Rig
+  - [ ] Walk Animation
+  - [ ] Run Animation
+  - [ ] Jump Animation
+  - [ ] Attack Animation
+#### Environment
+#### User Interface
+
 ## Player Description
 Listed here are the actions that the player can take, how the action is accomplished, and how it interacts with the environment, etc.
 ### Basic Abilities
-  1. Walk: Free resource, moderate pace movement
-  2. Run: Free resource outside of combat (slow drain in combat), hold down action button
-  3. Jump: Free resource, usable action button when player faces jump-able object
-  4. Climb: Free resource outside of combat (drains in combat), usable action when player faces climbable object
-  5. Attack: There are separate attack actions which get unlocked through gameplay
+  1. Walk/Run: Free resource, moderate to fast paced movement
+  2. Jump/Climb/Interact: Free resource, usable action button when player faces an interact-able object.
+  3. Attack: There are separate attack actions which get unlocked through gameplay
     * Basic Attack: Primary Action, Resource Builder
-    * Special Ability 1: Secondary Action, variable resource consumption
-    * Special Ability 2: Secondary Action, variable resource consumption
+    * Special Ability: Secondary Action -- chosen by player, variable resource consumption
+    * (Optional) Special Ability 2: Tertiary Action -- chosen from alternate skill tree by player, variable resource consumption
     * Ultimate Ability: Powerful Action, consumes 100% of available resources and scales exponentially based on resources consumed
 ### Stats
 Here will be a simple representation of the primary stats in the game. Raw damage can be built into the skills to keep it simplistic while we flesh it out.
