@@ -16,14 +16,29 @@ single-player story mode to start with for emphasis, later you can use your sing
 
 ## Visuals
 ### Environment
-  * Probuilder
-  * Voxels
+  * Probuilder - The world will be creating, modularly, using the pro-builder unity package. This is so that we can find a middle-ground between art development time and core functionality.
   * Blocky Modeling Style - Texture & Lighting Focus
   * Sky Island/Temple Ruins
   * Small level - most could be seen without moving a character (optional hub for larger levels)
     * The hub idea is also present in spiral knights, we could use as reference
 
-### Character
+### Characters
+Characters will be developed in a similar playful style to the Zelda toon-style games -- such as *Windwaker*&trade; or the *Summoner's War* mobile game.
+
+#### Playable Characters
+  * **Models:** 4000 triangle limit
+  * **Textures:** 1024 resolution limit
+  * **Animations:** X frames per animation
+
+#### Enemies &amp; NPCs
+  * **Models:** 2500 triangle limit
+  * **Textures:** 512 resolution limit
+  * **Animations:** X/2 frames per animation
+
+#### Bosses
+  * **Models:** 8000 triangle limit
+  * **Textures:** 2048 resolution limit
+  * **Animations:** X frames per animation
 
 ## Audio
   * Strings and simple piano arrangements
@@ -64,39 +79,65 @@ Listed below (and continually updated) will be the list of character, environmen
     - [ ] Jump Animation
     - [ ] Attack Animation
   2. Default Female Character
-  - [ ] Model
-  - [ ] Texture
-  - [ ] Rig
-  - [ ] Walk Animation
-  - [ ] Run Animation
-  - [ ] Jump Animation
-  - [ ] Attack Animation
+    - [ ] Model
+    - [ ] Texture
+    - [ ] Rig
+    - [ ] Walk Animation
+    - [ ] Run Animation
+    - [ ] Jump Animation
+    - [ ] Attack Animation
   3. Melee Terrestrial Enemy
-  - [ ] Model
-  - [ ] Texture
-  - [ ] Rig
-  - [ ] Walk Animation
-  - [ ] Run Animation
-  - [ ] Jump Animation 
-  - [ ] Attack Animation
+    - [ ] Model
+    - [ ] Texture
+    - [ ] Rig
+    - [ ] Walk Animation
+    - [ ] Run Animation
+    - [ ] Jump Animation
+    - [ ] Attack Animation
   4. Ranged Aerial Enemy
-  - [ ] Model
-  - [ ] Texture
-  - [ ] Rig
-  - [ ] Walk Animation
-  - [ ] Run Animation
-  - [ ] Jump Animation
-  - [ ] Attack Animation
+    - [ ] Model
+    - [ ] Texture
+    - [ ] Rig
+    - [ ] Walk Animation
+    - [ ] Run Animation
+    - [ ] Jump Animation
+    - [ ] Attack Animation
   5. Enemy Captain
-  - [ ] Model
-  - [ ] Texture
-  - [ ] Rig
-  - [ ] Walk Animation
-  - [ ] Run Animation
-  - [ ] Jump Animation
-  - [ ] Attack Animation
+    - [ ] Model
+    - [ ] Texture
+    - [ ] Rig
+    - [ ] Walk Animation
+    - [ ] Run Animation
+    - [ ] Jump Animation
+    - [ ] Attack Animation
 #### Environment
+  1. Textures
+    - [ ] Stone
+    - [ ] Overgrown Stone 1
+    - [ ] Overgrown Stone 2
+    - [ ] Bricked Stone
+  2. Custom Models
+    - [ ] Broken Pillars
+    - [ ] Broken Archways
+    - [ ] Old Statues
+    - [ ] Fountains
+    - [ ] Broken Portals
+    - [ ] Old wooden bridges
+    - [ ] Shattered Crystals
+    - [ ] Default "Block"
+    - [ ] Main model base
+  3. Sky-Box
 #### User Interface
+  1. Heads-Up Display (HUD)
+    - [ ] Player Health/Resource Meter
+    - [ ] Menu/Pause Button
+    - [ ] Movement/Directional
+    - [ ] Attack Buttons
+      - [ ] Basic Attack
+      - [ ] Special 1
+      - [ ] Special 2
+      - [ ] Ultimate
+  2. Menu/Pause UI
 
 ## Player Description
 Listed here are the actions that the player can take, how the action is accomplished, and how it interacts with the environment, etc.
